@@ -4,7 +4,7 @@ This repo contains the source codes for segmenting cracks on DIC images presente
 
 Link to the publication: [click here](https://doi.org/10.1016/j.conbuildmat.2020.120474)
 
-Link to the crack dataset: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4307686.svg)](https://doi.org/10.5281/zenodo.4307686)
+Link to the crack dataset: [click here](https://doi.org/10.5281/zenodo.4307686)
 
 
 # How to use it?

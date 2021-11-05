@@ -1,0 +1,19 @@
+name: deepcrack
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.6
+  - ipykernel
+  - numpy=1.19.4
+  - pytorch=0.4.1
+  - torchvision=0.2.1
+  - pandas=0.23.4
+  - Pillow=5.2.0
+  - pip
+  - pip:
+    - tqdm
+    - matplotlib==3.0.0
+prefix: "/opt/conda/envs"
+

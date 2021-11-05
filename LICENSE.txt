@@ -1,0 +1,10 @@
+
+
+- The main structure of the source codes is borrowed from 
+https://github.com/LeeJunHyun/Image_Segmentation
+however, a couple of modifications has been applied. 
+
+- The network implementation is a slightly modified version of 
+https://github.com/ternaus/TernausNet
+ 
+- Other source codes are distributed under the MIT License and are noted in the file headers.

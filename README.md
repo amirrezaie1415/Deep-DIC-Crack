@@ -26,11 +26,11 @@ Run the following commands in your terminal to install and activate the environm
 
 ```bash
 conda env create -f environment.yml
-``
+```
 
 ```bash
 conda activate deepcrack
-``
+```
 
 ## 4. Download the crack dataset
 

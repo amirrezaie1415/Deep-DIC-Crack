@@ -24,11 +24,11 @@ Link to install miniconda: https://docs.conda.io/en/latest/miniconda.html
 
 Run the following commands in your terminal to install and activate the environment.
 
-``bash
+```bash
 conda env create -f environment.yml
 ``
 
-``bash
+```bash
 conda activate deepcrack
 ``
 

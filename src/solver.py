@@ -124,7 +124,7 @@ class Solver(object):
                 PC += get_precision(SR_probs, GT)
                 JS += get_JS(SR_probs, GT)
                 DC += get_DC(SR_probs, GT)
-                length += 1
+                length += images.shape[0]
 
                 # backprop + Update the parameters
                 self.reset_grad()
@@ -174,7 +174,7 @@ class Solver(object):
                     PC += get_precision(SR_probs, GT)
                     JS += get_JS(SR_probs, GT)
                     DC += get_DC(SR_probs, GT)
-                    length += 1
+                    length += images.shape[0]
 
             # compute average metrics for validation data
             valid_acc = acc / length
@@ -258,7 +258,7 @@ class Solver(object):
                 PC += get_precision(SR_probs, GT)
                 JS += get_JS(SR_probs, GT)
                 DC += get_DC(SR_probs, GT)
-                length += 1
+                length += images.shape[0]
 
         # compute average metrics for test data
         test_acc = acc / length
